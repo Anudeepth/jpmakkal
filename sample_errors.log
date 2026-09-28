@@ -1,0 +1,45 @@
+﻿Sep 28 22:41:03 linux systemd[1]: Failed to start NetworkManager.service - Network Manager.
+Sep 28 22:41:03 linux systemd[1]: Dependency failed for Network.
+Sep 28 22:41:05 linux kernel: amdgpu 0000:03:00.0: amdgpu: ring gfx timeout, signaled seq=12345
+Sep 28 22:41:05 linux kernel: amdgpu 0000:03:00.0: amdgpu: GPU reset begin!
+Sep 28 22:41:06 linux kernel: amdgpu 0000:03:00.0: amdgpu: GPU reset succeeded, trying to resume
+Sep 28 22:41:10 linux NetworkManager[812]: <error> [1759079470.1234] dhcp4 (wlan0): request timed out
+Sep 28 22:41:10 linux NetworkManager[812]: <error> [1759079470.1235] dhcp4 (wlan0): state change: config -> failed
+Sep 28 22:41:12 linux kernel: EXT4-fs error (device sda2): ext4_find_entry:1455: inode #524288: comm systemd: reading directory lblock 0
+Sep 28 22:41:15 linux kernel: usb 1-2: device descriptor read/64, error -71
+Sep 28 22:41:15 linux kernel: usb 1-2: device descriptor read/64, error -71
+Sep 28 22:41:16 linux kernel: usb 1-2: unable to enumerate USB device
+Sep 28 22:41:20 linux kernel: Out of memory: Killed process 2481 (firefox) total-vm:8245632kB
+Sep 28 22:41:21 linux systemd[1]: user@1000.service: Main process exited, code=killed, status=9/KILL
+Sep 28 22:41:24 linux kernel: watchdog: BUG: soft lockup - CPU#3 stuck for 26s!
+Sep 28 22:41:30 linux kernel: PCIe Bus Error: severity=Corrected, type=Data Link Layer
+Sep 28 22:41:34 linux sshd[1923]: Failed password for invalid user admin from 192.168.1.50 port 53124 ssh2
+Sep 28 22:41:37 linux sshd[1923]: Failed password for root from 192.168.1.50 port 53125 ssh2
+Sep 28 22:41:42 linux systemd[1]: Failed to start cups.service - CUPS Scheduler.
+Sep 28 22:41:45 linux dbus-daemon[601]: Failed to activate service 'org.example.Service': timed out
+Sep 28 22:41:48 linux kernel: Buffer I/O error on dev sda2, logical block 123456
+Sep 28 22:41:50 linux kernel: I/O error, dev sda2, sector 987654
+Sep 28 22:41:53 linux kernel: EXT4-fs warning (device sda2): mounting fs with errors
+Sep 28 22:41:56 linux gdm-password][1042]: pam_unix(gdm-password:auth): authentication failure
+Sep 28 22:42:01 linux systemd[1]: Failed to mount /mnt/data.
+Sep 28 22:42:03 linux kernel: CIFS: VFS: \\server\share send error in SessSetup = -13
+Sep 28 22:42:06 linux kernel: TCP: request_sock_TCP: Possible SYN flooding on port 443. Sending cookies.
+Sep 28 22:42:10 linux NetworkManager[812]: <warn> device (wlan0): Activation: failed for connection
+Sep 28 22:42:13 linux kernel: nouveau 0000:01:00.0: DRM: GPU lockup - switching to software fbcon
+Sep 28 22:42:16 linux kernel: i915 0000:00:02.0: [drm] GPU HANG: ecode 12:1:85fffffe
+Sep 28 22:42:18 linux kernel: i915 0000:00:02.0: [drm] Resetting chip for stopped heartbeat on rcs0
+Sep 28 22:42:20 linux kernel: nvidia: module verification failed: signature and/or required key missing
+Sep 28 22:42:22 linux kernel: NVRM: Xid (PCI:0000:01:00): 79, pid=1234, name=Xorg, GPU has fallen off the bus
+Sep 28 22:42:25 linux kernel: Bluetooth: hci0: Opcode 0x200c failed: -110
+Sep 28 22:42:27 linux kernel: firmware: failed to load iwlwifi-ty-a0-gf-a0-83.ucode
+Sep 28 22:42:30 linux kernel: iwlwifi 0000:00:14.3: Failed to start RT ucode: -110
+Sep 28 22:42:33 linux kernel: nvme nvme0: I/O 123 QID 0 timeout, aborting
+Sep 28 22:42:35 linux kernel: nvme nvme0: I/O 124 QID 0 timeout, reset controller
+Sep 28 22:42:38 linux kernel: ACPI BIOS Error (bug): Failure creating named object
+Sep 28 22:42:41 linux kernel: ACPI Error: AE_NOT_FOUND, During name lookup/catalog
+Sep 28 22:42:44 linux kernel: audit: type=1400 audit(1759079564.123:123): apparmor="DENIED" operation="open"
+Sep 28 22:42:47 linux kernel: audit: type=1400 audit(1759079567.123:124): apparmor="DENIED" operation="capable"
+Sep 28 22:42:50 linux systemd[1]: docker.service: Main process exited, code=exited, status=1/FAILURE
+Sep 28 22:42:52 linux dockerd[2210]: failed to start daemon: Error initializing network controller
+Sep 28 22:42:55 linux kernel: audit: type=1107 audit(1759079575.123:125): pid=601 uid=1000
+Sep 28 22:42:58 linux systemd[1]: Failed to start docker.service - Docker Application Container Engine.
